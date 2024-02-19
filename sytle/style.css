@@ -1,0 +1,50 @@
+/* common stle */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.nav-title{
+    font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:#474747 ;
+    font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    /* text-align: right; */
+}
+nav{
+    display: flex;
+    /* text-align: justify; */
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    padding:17px 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
